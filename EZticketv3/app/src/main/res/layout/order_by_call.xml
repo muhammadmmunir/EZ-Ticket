@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_papb"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/txt_orderCall"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/admin" />
+
+        <TextView
+            android:id="@+id/txt_papb"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_papb"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="@string/caution_detail"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/idbtnCall"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txt_papb"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:onClick="btnClick"
+            android:text="Call" />
+
+    </RelativeLayout>
+
+</LinearLayout>

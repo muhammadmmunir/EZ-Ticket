@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EZticket</string>
+    <string name="order_ticket">Order Ticket</string>
+    <string name="caution_detail">booking by phone will be connected with the services (our administrator), but please be note that by booking via phone will be charged your carrier pulse.</string>
+    <string-array name="ticket_categories">
+        <item>Choose one</item>
+        <item>VVIP</item>
+        <item>VIP</item>
+        <item>Regular</item>
+    </string-array>
+    <string-array name="match">
+        <item>Choose one</item>
+        <item>Chelsea vs Southampton</item>
+        <item>Chelsea vs Bournemouth</item>
+        <item>Everton vs Chelsea</item>
+        <item>Chelsea vs Brighton</item>
+        <item>Chelsea vs Stoke City</item>
+        <item>Arsenal vs Chelsea</item>
+        <item>Norwich vs Chelsea</item>
+        <item>Chelsea vs Leicester</item>
+        <item>Brighton vs Chelsea</item>
+        <item>Chelsea vs Bournemouth</item>
+        <item>Watford vs Chelsea</item>
+        <item>Chelsea vs West Brom</item>
+        <item>Chelsea vs Barcelona</item>
+        <item>Man Utd vs Chelsea</item>
+    </string-array>
+</resources>

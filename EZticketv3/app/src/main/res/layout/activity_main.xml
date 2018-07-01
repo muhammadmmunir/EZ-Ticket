@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.infinity.ezlearn.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_papb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"
+            android:layout_marginTop="25dp"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="35dp" />
+
+        <TextView
+            android:id="@+id/slo_papb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_papb"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:text="anytime, anywhere"
+            android:textStyle="italic"
+            android:textSize="11dp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="374dp"
+        android:layout_height="510dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <RelativeLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txt_papb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MENU"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_papb"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="btnOrderTicket"
+                        android:text="@string/order_ticket"
+                        tools:ignore="OnClick" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Order By Call" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="View Match Schedule" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Invoice" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Match Suggestion" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
